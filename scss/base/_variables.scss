@@ -1,0 +1,18 @@
+/*
+  Colors
+*/
+$white: #fff;
+
+/*
+  Font Stacks
+*/
+
+$stack-sans-serif: Helvetica, Arial, sans-serif;
+$stack-open-sans: 'Open Sans', $stack-sans-serif;
+
+
+/*
+  Breakpoints
+*/
+
+$brk-point-desktop:  'screen and (min-width: '+ em(767) + ')';

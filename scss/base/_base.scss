@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: em(16);
+  font-family: $stack-open-sans;
+  line-height: em(32);
+}
+
+.container {
+  max-width: 768px;
+  margin: 0 auto;
+  background-color: $white;
+
+  h1 {
+    padding: 0 em(15);
+    text-align: center;
+
+    @include brkpnt(desktop) {
+      padding: 0;
+    }
+  }
+
+  .subtitle-transcript {
+
+    padding: 0 em(15) em(15) em(15);
+
+    @include brkpnt(desktop) {
+      padding: 0;
+    }
+
+    .highlighted {
+      background-color: yellow;
+      color: black;
+      border: 1px solid #dcdc2c;
+      border-radius: 4px;
+      padding: 5px;
+      font-size: 102%;
+    }
+  }
+}

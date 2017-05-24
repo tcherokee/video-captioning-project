@@ -1,0 +1,31 @@
+@mixin brkpnt($device) {
+  @if $device == desktop {
+    @media #{$brk-point-desktop} {
+      @content;
+    }
+  }
+
+  // @if $device == custom-tablet {
+  //   @media #{$brk-point-custom-small} {
+  //     @content;
+  //   }
+  // }
+  //
+  // @else if $device == tablet {
+  //   @media #{$brk-point-medium} {
+  //     @content;
+  //   }
+  // }
+  //
+  // @else if $device == custom-desktop {
+  //   @media #{$brk-point-custom-medium} {
+  //     @content;
+  //   }
+  // }
+  //
+  // @else if $device == desktop {
+  //   @media #{$brk-point-large} {
+  //     @content;
+  //   }
+  // }
+}
